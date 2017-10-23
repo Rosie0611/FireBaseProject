@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightpink"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="&lt;Board Main&gt;"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_writePost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:text="Write Post" />
+
+        <Button
+            android:id="@+id/bt_Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:text="Checked Map" />
+
+        <Button
+            android:id="@+id/bt_UploadPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:text="Upload Photo" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt_checkAllPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textspace_form"
+                android:text="Check All Post"
+                android:textSize="15sp"/>
+            <Button
+                android:id="@+id/bt_checkMyPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/bt_checkAllPost"
+                android:background="@drawable/textspace_form"
+                android:text="Check My Gridview Post"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignBottom="@+id/tv_copyright"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/tv_copyright"
+                android:background="#0F00"
+                android:src="@drawable/ic_copyright_black_24dp" />
+
+            <TextView
+                android:id="@+id/tv_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="copyRight All Rights Reserved"
+                android:textColor="#9e9e9e"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

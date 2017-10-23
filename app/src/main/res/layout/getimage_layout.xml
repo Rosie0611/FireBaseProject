@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightpink"
+        android:padding="5dp"
+        android:text="USER ID"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_imageExplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Explain"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17 Aug 2017"/>
+</LinearLayout>
+</LinearLayout>

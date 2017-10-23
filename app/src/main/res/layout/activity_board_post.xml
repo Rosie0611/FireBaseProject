@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightpink"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <ListView
+            android:id="@+id/listview_post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_regular_userid"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="USERID"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/ed_post"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffff"
+            android:hint="Share your feeling with your friends"
+            android:lines="3"
+            android:padding="10dp"
+            android:focusable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bt_postNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_background"
+                android:text="Post NOW" />
+
+            <Button
+                android:id="@+id/bt_write_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_background"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/bt_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_background"
+                android:text="Reset" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
