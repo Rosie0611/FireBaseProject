@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:712151607344:android:a17e2895cc587146",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "rosie.example.com.secondrosieproject"
         }
