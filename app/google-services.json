@@ -1,16 +1,16 @@
 {
   "project_info": {
-    "project_number": "712151607344",
-    "firebase_url": "https://rosieproject02.firebaseio.com",
-    "project_id": "rosieproject02",
-    "storage_bucket": "rosieproject02.appspot.com"
+    "project_number": "#",
+    "firebase_url": "#",
+    "project_id": "#",
+    "storage_bucket": "#"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "rosie.example.com.secondrosieproject"
+          "package_name": "#"
         }
       },
       "oauth_client": [
